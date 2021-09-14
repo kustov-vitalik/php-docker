@@ -1,0 +1,28 @@
+{
+    "name": "kustov-vitalik/php-docker",
+    "description": "Docker PHP Client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Docker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitaly Kustov",
+            "email": "kustov.vitalik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "kustov-vitalik/docker-php-api": "4.1.41.*",
+        "guzzlehttp/psr7": "^2.0",
+        "php-http/socket-client": "^2.1",
+        "php-http/message": "^1.12",
+        "symfony/process": "^5.3",
+        "symfony/filesystem": "^5.3"
+    }
+}
